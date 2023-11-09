@@ -1,8 +1,10 @@
 spot
 <- concept_robot;
-=> nrel_main_idtf: [Spot] (* <- lang_ru;; <- lang_en;; *);
+<- concept_wit_entity;
+=> nrel_main_idtf: [Спот] (* <- lang_ru;; *);
 => nrel_component:
     vsb_2000;
     tsb_2000;
     elaa_2000;
-    mma_2000;;
+    mma_2000;
+=> nrel_component_list: [визуальный сенсор VSB-2000; тактильный сенсор TSB-2000; эластичный привод ELAA-2000; механический манипулятор MMA-2000] (* <- lang_ru;; *);;
